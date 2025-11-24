@@ -1,8 +1,8 @@
 :root {
     --primary-color: #055a05; 
-    --secondary-color: #f4a261; 
+    --secondary-color: wheat; 
     --accent1-color: #264653; 
-    --accent2-color: #e9c46a; 
+     
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
     }
@@ -47,7 +47,7 @@ h1 {
     text-align: center;
     opacity: 0.8;
     background-color: var(--accent1-color);
-    color: wheat;
+    color: var(--secondary-color);
     text-shadow: 2px 2px 4px rgba(0,0,0,0.45);
     font-size: 40px;
     border-radius: 10px;
@@ -55,18 +55,21 @@ h1 {
 }
 h2 {
     background-color: #264653;
-    color: wheat;
+    color: var(--secondary-color);
     display: flex;
     justify-content: center;
 }
-
+main p {
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+}
 .hero article {
-    position: relative;
+    position: absolute;
     display: flex;             
     align-items: center;      
     gap: 6px;                 
-    background-color: #264653;
-    color: wheat;         
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);         
     padding: 2px;
     border: 2px solid #ccc;    
     border-radius: 10px;
@@ -75,15 +78,19 @@ h2 {
     z-index: 2;    
     font-size: 17px;            
 }
-.hero article .happy2 {
+.hero article img {
+    position: relative;
     width: 150px;
     height: auto;
     object-fit: cover;
     border-radius: 10px;       
     border: 2px solid black; 
+    float: right;
 
 }
-
+nav a {
+    text-decoration: none;
+}
 .hero {
     position: relative;
     padding-bottom: 150px;
@@ -94,10 +101,10 @@ h2 {
     width: 100%;
     height: auto;
 }
-.social_media img {
+.socialmedia img {
     width: 40px; 
 }
-.social_media a {
+.socialmedia a {
     text-decoration: none;
 }
 .happy2 {
