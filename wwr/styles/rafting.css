@@ -71,7 +71,7 @@ main p {
     background-color: var(--accent1-color);
     color: var(--secondary-color);         
     padding: 2px;
-    border: 2px solid #ccc;    
+    border: 2px solid var(--secondary-color);    
     border-radius: 10px;
     max-width: 840px;         
     margin: -135px auto;         
@@ -84,7 +84,7 @@ main p {
     height: auto;
     object-fit: cover;
     border-radius: 10px;       
-    border: 2px solid black; 
+    border: 2px solid var(--secondary-color); 
     float: right;
     order:2;
     margin-right: 10px;
@@ -95,7 +95,7 @@ nav a {
 }
 .hero {
     position: relative;
-    padding-bottom: 150px;
+    padding-bottom: 10px;
 
 }
 .hero img {
@@ -109,8 +109,8 @@ nav a {
 .socialmedia a {
     text-decoration: none;
     color: var(--secondary-color);
-    
 }
+
 .happy2 {
     width: auto;
     height: auto;
@@ -147,8 +147,22 @@ li a {
     color: var(--secondary-color);
 }
 section {
+    margin: 0;
     padding: 0;
+    border: 2px solid var(--secondary-color);
+    color: var(--secondary-color);
 }
+.section1 {
+    display: flex;
+    align-items: center;         
+    justify-content: center;     
+    gap: 2px;                   
+}
+.section1 img {
+    height: 150px;
+}
+
+
 p {
     color: var(--secondary-color);
     background-color: var(--accent1-color);
@@ -158,6 +172,8 @@ footer {
     grid-template-columns: 1fr 2fr 1fr;
     align-items: center;
     border: 2px solid var(--secondary-color);
+    
+    
 }
 footer p {
     grid-column: 2;
@@ -165,4 +181,5 @@ footer p {
 footer nav {
     grid-column: 3;
     justify-self: right;
+    
 }

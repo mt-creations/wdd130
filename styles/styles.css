@@ -79,7 +79,7 @@ footer {
   border-top: 1px solid #000;
   text-align: var(--text-align);
 }
-/* Class Selectors */
+
 .box {
   margin: 10px;
   border: 1px solid rgba(0,0,0,.1);
