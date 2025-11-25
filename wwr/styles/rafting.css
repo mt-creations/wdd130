@@ -54,7 +54,7 @@ h1 {
     border: 2px solid var(--secondary-color);
 }
 h2 {
-    background-color: #264653;
+    background-color: var(--accent1-color);
     color: var(--secondary-color);
     /* display: flex;
     justify-content: center; */
