@@ -267,6 +267,7 @@ main section figure {
     grid-template-columns: 1fr;
     gap: 1rem;
     text-align: left; 
+    padding: 20px;
 }
 .div1 {
     border: border-box;
