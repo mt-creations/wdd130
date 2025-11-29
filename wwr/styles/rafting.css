@@ -269,11 +269,7 @@ main section figure {
     text-align: left; 
     padding: 20px;
 }
-.div1 {
-    border: border-box;
-    border-color: var(--secondary-color);
-    
-}
+
 .map {
     padding: 1rem;
     justify-self: center;
