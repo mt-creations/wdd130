@@ -303,6 +303,10 @@ main section figure {
     gap: 0.3rem;
     margin: 0.3rem 0 1rem; 
 }
+.radio p {
+    display: flex;
+    margin-left: -7px;
+}
 .contacth1 {
     position: relative;
     border:none;
