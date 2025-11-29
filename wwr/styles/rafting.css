@@ -266,8 +266,11 @@ main section figure {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
-    text-align: left;
-    padding: 1rem;
+    text-align: left; 
+}
+.div1 {
+    border: border-box;
+    border-color: var(--secondary-color);
     
 }
 .map {
@@ -302,4 +305,8 @@ main section figure {
     flex-direction: column;
     gap: 0.3rem;
     margin: 0.3rem 0 1rem; 
+}
+.contacth1 {
+    position: relative;
+    border:none;
 }
